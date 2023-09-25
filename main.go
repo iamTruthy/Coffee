@@ -1,6 +1,6 @@
 package coffee
 
-func CoffeeType(s string) string {
+func Type(s string) string {
 	return "Mocha"
 }
 
