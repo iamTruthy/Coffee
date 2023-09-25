@@ -1,15 +1,21 @@
 package cofee
 
-func Type() string {
+const (
+
+	_ = iota
+	a 
+)
+
+func CoffeeType(s string) string {
 	return "Mocha"
 }
 
-func Size() string {
+func Size(s string) string {
 	return "Medium"
 }
 
-func Sugar() string {
-	return "No"
+func Num (i int) int {
+ return a 
 }
 
 
