@@ -1,10 +1,4 @@
-package cofee
-
-const (
-
-	_ = iota
-	a 
-)
+package coffee
 
 func CoffeeType(s string) string {
 	return "Mocha"
@@ -13,9 +7,3 @@ func CoffeeType(s string) string {
 func Size(s string) string {
 	return "Medium"
 }
-
-func Num (i int) int {
- return a 
-}
-
-
