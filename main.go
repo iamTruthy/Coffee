@@ -1,9 +1,7 @@
 package coffee
 
-func Type(s string) string {
-	return "Mocha"
-}
+import "strings"
 
-func Size(s string) string {
-	return "Medium"
+func WithLatte(s string) string {
+	return "With Latte it'll cost:" + strings.ToUpper (s) 
 }
